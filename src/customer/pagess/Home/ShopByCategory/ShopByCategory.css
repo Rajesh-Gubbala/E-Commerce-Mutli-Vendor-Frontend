@@ -1,0 +1,24 @@
+.custome-border{
+border: 9px solid;
+border-color: rgb(253, 58, 91) rgb(99,99,99);
+}
+/* ShopByCategory.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+.font-cursive {
+    /* Using Playfair for a high-end serif look or Pacifico for handwriting */
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.05em;
+}
+
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+/* Custom border to replace the flat bg-green-600 */
+.custome-border {
+    position: relative;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right darkgreen, lightgreen) border-box;
+    border: 2px solid transparent;
+}
